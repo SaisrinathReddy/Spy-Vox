@@ -1,0 +1,9 @@
+{
+  "languages": [
+    { "code": "en-US", "native": "English (US)", "name": "English" },
+    { "code": "en-GB", "native": "English (UK)", "name": "English" },
+    { "code": "es", "native": "Español", "name": "Spanish" },
+    { "code": "fr", "native": "Français", "name": "French" },
+    { "code": "de", "native": "Deutsch", "name": "German" }
+  ]
+}
