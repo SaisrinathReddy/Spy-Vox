@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Spy-Vox Settings</title>
+  <link rel="stylesheet" href="styles/global.css"/>
+</head>
+<body>
+  <div class="page-container">
+    <div class="inner-container">
+      <h2>Spy-Vox Settings</h2>
+      <div>
+        <label>
+          <input type="checkbox" id="enableNotifications"/>
+          Enable notifications
+        </label>
+      </div>
+      <div>
+        <label for="defaultLanguage">Default language:</label>
+        <select id="defaultLanguage">
+          <option value="en-US">English (US)</option>
+          <option value="en-GB">English (UK)</option>
+          <option value="es">Spanish</option>
+          <!-- Add more options if needed -->
+        </select>
+      </div>
+      <button id="saveSettings">Save Settings</button>
+    </div>
+  </div>
+  <script src="settings.js"></script>
+</body>
+</html>
