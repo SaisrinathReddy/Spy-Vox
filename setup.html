@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Spy-Vox Setup</title>
+  <link rel="stylesheet" href="styles/global.css">
+</head>
+<body>
+  <div class="pinned-header">
+    <img src="icons/activeIcon128.png" alt="Logo" class="pinned-logo" />
+    <span class="pinned-title"><strong>Spy-Vox</strong></span>
+  </div>
+
+  <div class="page-container">
+    <div class="inner-container">
+      <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+        <div class="labels" id="labels"></div>
+      </div>
+
+      <div id="setupSteps">
+        <!-- Step 1: Language Selection -->
+        <div id="step2" class="step-content" style="display: block;">
+          <h2>Step 1: Choose Your Language</h2>
+          <p>Select your preferred language for the extension.</p>
+          <div class="options-container">
+            <div class="custom-select">
+              <div class="select-selected">
+                <div class="native-name">Select a language</div>
+              </div>
+              <div class="select-items select-hide" id="languageOptions"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 2: Microphone Access -->
+        <di
